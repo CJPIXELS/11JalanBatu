@@ -88,7 +88,7 @@
 			<cube url="panos/01_Ext.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920490342" style="skin_hotspotstyle" ath="-28.67" atv="19.067" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-86.59,-0.34,73.24" />
+		<hotspot name="spot1920490342" style="skin_hotspotstyle" ath="-29.68" atv="35.45" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-86.59,-2.02,132.62" />
 
 	</scene>
 
@@ -108,7 +108,6 @@
 		<hotspot name="spot1920491618" style="skin_hotspotstyle" ath="-111.528" atv="12.18" depth="1000.0" linkedscene="scene_04_masterbed" linkedscene_lookat="-248.76,-2.01,120.0" />
 		<hotspot name="spot1920491914" style="skin_hotspotstyle" ath="-98.948" atv="11.816" depth="1000.0" linkedscene="scene_09_room2" linkedscene_lookat="0.0,0.0,120.0" />
 		<hotspot name="spot1920493394" style="skin_hotspotstyle" ath="-26.006" atv="16.477" depth="1000.0" linkedscene="scene_03_dining" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot1923772610" style="skin_hotspotstyle" ath="151.33" atv="19.067" depth="1000.0" linkedscene="scene_01_ext" linkedscene_lookat="-86.59,-0.34,73.24" linkedscene_spot="spot1920490342" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -249,7 +248,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="3.735" vlookat="1.785" fovtype="MFOV" fov="132.817" maxpixelzoom="2.0" fovmin="37.577067" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120.010822" maxpixelzoom="2.0" fovmin="37.577067" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/12_CommonWC.tiles/preview.jpg" />
 
@@ -257,7 +256,7 @@
 			<cube url="panos/12_CommonWC.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920495535" style="skin_hotspotstyle" ath="-47.545" atv="23.561" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="53.14,-2.93,140.0" />
+		<hotspot name="spot1920495535" style="skin_hotspotstyle" ath="-48.095" atv="12.418" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="53.14,-2.93,140.0" />
 
 	</scene>
 
