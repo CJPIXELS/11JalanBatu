@@ -1,4 +1,4 @@
-<krpano version="1.22" title="Virtual Tour">
+﻿<krpano version="1.22" title="Virtual Tour">
 
 <include url="skin/vtourskin.xml" />
 <include url="skin/vtourskin_design_117round.xml"    />
@@ -133,7 +133,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-108.160" vlookat="2.098" fovtype="MFOV" fov="120.329" maxpixelzoom="off" fovmin="37.577681" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-108.160" vlookat="2.098" fovtype="MFOV" fov="120.329" maxpixelzoom="2.0" fovmin="37.577681" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/04_MasterBed.tiles/preview.jpg" />
 
