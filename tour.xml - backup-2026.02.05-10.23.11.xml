@@ -80,7 +80,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-32.692" vlookat="0.000" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-32.692" vlookat="0.000" fovtype="MFOV" fov="120.634" maxpixelzoom="2.0" fovmin="37.571575" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/01_Ext.tiles/preview.jpg" />
 
@@ -94,21 +94,21 @@
 
 	<scene name="scene_02_living" title="02_Living" onstart="" thumburl="panos/02_Living.tiles/thumb.jpg" lat="1.30166945" lng="103.88241667" alt="20.00" heading="0.0">
 		
-		<control bouncinglimits="true" />
+		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-85.635" vlookat="2.849" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-85.635" vlookat="2.849" fovtype="MFOV" fov="100.257" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/02_Living.tiles/preview.jpg" />
 
-		<image prealign="0|0|0">
+		<image>
 			<cube url="panos/02_Living.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920490722" style="skin_hotspotstyle" ath="-133.564" atv="17.535" depth="1000.0" linkedscene="scene_07_room1" linkedscene_lookat="1.32,0.47,120.0" />
-		<hotspot name="spot1920491618" style="skin_hotspotstyle" ath="-110.914" atv="14.122" depth="1000.0" linkedscene="scene_04_masterbed" linkedscene_lookat="-248.76,-2.01,120.0" />
-		<hotspot name="spot1920491914" style="skin_hotspotstyle" ath="-99.909" atv="13.216" depth="1000.0" linkedscene="scene_09_room2" linkedscene_lookat="0.0,0.0,120.0" />
-		<hotspot name="spot1920493394" style="skin_hotspotstyle" ath="-29.707" atv="20.848" depth="1000.0" linkedscene="scene_03_dining" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot1923772610" style="skin_hotspotstyle" ath="113.399" atv="11.557" depth="1000.0" linkedscene="scene_01_ext" linkedscene_lookat="-183.4,0.98,73.24" linkedscene_spot="spot1920490342" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1920490722" style="skin_hotspotstyle" ath="-133.503" atv="16.398" depth="1000.0" linkedscene="scene_07_room1" linkedscene_lookat="1.32,0.47,120.0" />
+		<hotspot name="spot1920491618" style="skin_hotspotstyle" ath="-111.528" atv="12.18" depth="1000.0" linkedscene="scene_04_masterbed" linkedscene_lookat="-248.76,-2.01,120.0" />
+		<hotspot name="spot1920491914" style="skin_hotspotstyle" ath="-98.948" atv="11.816" depth="1000.0" linkedscene="scene_09_room2" linkedscene_lookat="0.0,0.0,120.0" />
+		<hotspot name="spot1920493394" style="skin_hotspotstyle" ath="-26.006" atv="16.477" depth="1000.0" linkedscene="scene_03_dining" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1923772610" style="skin_hotspotstyle" ath="151.33" atv="19.067" depth="1000.0" linkedscene="scene_01_ext" linkedscene_lookat="-86.59,-0.34,73.24" linkedscene_spot="spot1920490342" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -116,7 +116,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="0.194" vlookat="0.367" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="0.194" vlookat="0.367" fovtype="MFOV" fov="119.817" maxpixelzoom="2.0" fovmin="37.571575" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/03_Dining.tiles/preview.jpg" />
 
@@ -124,8 +124,8 @@
 			<cube url="panos/03_Dining.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920492886" style="skin_hotspotstyle" ath="0.696" atv="23.562" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="197.51,-0.25,122.59" />
-		<hotspot name="spot1920493167" style="skin_hotspotstyle" ath="-90.624" atv="18.68" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1920492886" style="skin_hotspotstyle" ath="0.812" atv="11.899" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="197.51,-0.25,122.59" />
+		<hotspot name="spot1920493167" style="skin_hotspotstyle" ath="-90.624" atv="16.972" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -150,7 +150,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="164.751" vlookat="0.459" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="164.751" vlookat="0.459" fovtype="MFOV" fov="120.006" maxpixelzoom="2.0" fovmin="37.577681" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/05_Master2.tiles/preview.jpg" />
 
@@ -167,7 +167,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-372.386" vlookat="-1.809" fovtype="DFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-372.386" vlookat="-1.809" fovtype="DFOV" fov="120.656" maxpixelzoom="2.0" fovmin="42.100433" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/06_MasterWC.tiles/preview.jpg" />
 
@@ -183,7 +183,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-148.184" vlookat="1.053" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-148.184" vlookat="1.053" fovtype="MFOV" fov="121.027" maxpixelzoom="2.0" fovmin="37.577067" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/07_Room1.tiles/preview.jpg" />
 
@@ -199,7 +199,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-179.993" vlookat="2.010" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-179.993" vlookat="2.010" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="37.571575" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/09_room2.tiles/preview.jpg" />
 
@@ -207,7 +207,7 @@
 			<cube url="panos/09_room2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920497573" style="skin_hotspotstyle" ath="-169.233" atv="15.355" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1920497573" style="skin_hotspotstyle" ath="-166.87" atv="17.18" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -215,7 +215,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="184.591" vlookat="0.804" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="184.591" vlookat="0.804" fovtype="MFOV" fov="119.568" maxpixelzoom="2.0" fovmin="37.571575" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/10_kitchen.tiles/preview.jpg" />
 
@@ -233,7 +233,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="-93.811" vlookat="2.276" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="-93.811" vlookat="2.276" fovtype="MFOV" fov="120.310" maxpixelzoom="2.0" fovmin="37.577067" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/11_helperroom.tiles/preview.jpg" />
 
@@ -249,7 +249,7 @@
 		
 		<control bouncinglimits="true" />
 
-		<view hlookat="3.735" vlookat="1.785" fovtype="MFOV" fov="120.0" maxpixelzoom="off" fovmin="120.0" fovmax="120.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
+		<view hlookat="3.735" vlookat="1.785" fovtype="MFOV" fov="132.817" maxpixelzoom="2.0" fovmin="37.577067" fovmax="140.0" limitview="auto" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="90.0"/>
 
 		<preview url="panos/12_CommonWC.tiles/preview.jpg" />
 
