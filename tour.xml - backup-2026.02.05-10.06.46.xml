@@ -88,7 +88,7 @@
 			<cube url="panos/01_Ext.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920490342" style="skin_hotspotstyle" ath="-28.67" atv="19.067" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-86.31,1.34,83.84" />
+		<hotspot name="spot1920490342" style="skin_hotspotstyle" ath="-28.67" atv="19.067" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-86.59,-0.34,73.24" />
 
 	</scene>
 
@@ -124,8 +124,8 @@
 			<cube url="panos/03_Dining.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920492886" style="skin_hotspotstyle" ath="0.812" atv="11.899" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="197.51,-0.25,122.59" />
-		<hotspot name="spot1920493167" style="skin_hotspotstyle" ath="-90.624" atv="16.972" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1920492886" style="skin_hotspotstyle" ath="1.852" atv="25.208" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="137.23,-0.56,150.79" />
+		<hotspot name="spot1920493167" style="skin_hotspotstyle" ath="-90.167" atv="21.087" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -141,7 +141,7 @@
 			<cube url="panos/04_MasterBed.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920496045" style="skin_hotspotstyle" ath="94.351" atv="11.443" depth="1000.0" linkedscene="scene_05_master2" linkedscene_lookat="166.39,2.6,104.03" />
+		<hotspot name="spot1920496045" style="skin_hotspotstyle" ath="94.081" atv="26.355" depth="1000.0" linkedscene="scene_05_master2" linkedscene_lookat="165.9,6.02,120.0" />
 		<hotspot name="spot1920497197" style="skin_hotspotstyle" ath="-116.401" atv="19.073" depth="1000.0" linkedscene="scene_02_living" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
@@ -158,8 +158,8 @@
 			<cube url="panos/05_Master2.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920496404" style="skin_hotspotstyle" ath="164.154" atv="20.721" depth="1000.0" linkedscene="scene_06_masterwc" linkedscene_lookat="-12.84,-0.82,108.81" />
-		<hotspot name="spot1920496831" style="skin_hotspotstyle" ath="-114.0" atv="20.537" depth="1000.0" linkedscene="scene_04_masterbed" linkedscene_hoffset="0.0" use3dtransition="true" />
+		<hotspot name="spot1920496404" style="skin_hotspotstyle" ath="164.154" atv="20.721" depth="1000.0" linkedscene="scene_06_masterwc" linkedscene_lookat="-12.84,-0.82,140.93" />
+		<hotspot name="spot1920496831" style="skin_hotspotstyle" ath="-112.745" atv="27.036" depth="1000.0" linkedscene="scene_04_masterbed" linkedscene_hoffset="0.0" use3dtransition="true" />
 
 	</scene>
 
@@ -191,7 +191,7 @@
 			<cube url="panos/07_Room1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920502264" style="skin_hotspotstyle" ath="-148.296" atv="19.874" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-87.46,0.93,90.13" />
+		<hotspot name="spot1920502264" style="skin_hotspotstyle" ath="-148.296" atv="19.874" depth="1000.0" linkedscene="scene_02_living" linkedscene_lookat="-85.78,3.58,140.0" />
 
 	</scene>
 
@@ -224,8 +224,8 @@
 		</image>
 
 		<hotspot name="spot1920494051" style="skin_hotspotstyle" ath="16.63" atv="10.65" depth="1000.0" linkedscene="scene_03_dining" linkedscene_hoffset="0.0" use3dtransition="true" />
-		<hotspot name="spot1920494661" style="skin_hotspotstyle" ath="74.476" atv="16.174" depth="1000.0" linkedscene="scene_11_helperroom" linkedscene_lookat="-93.81,3.13,126.31" />
-		<hotspot name="spot1920495118" style="skin_hotspotstyle" ath="-173.895" atv="20.333" depth="1000.0" linkedscene="scene_12_commonwc" linkedscene_lookat="1.56,-0.22,132.15" />
+		<hotspot name="spot1920494661" style="skin_hotspotstyle" ath="74.476" atv="16.174" depth="1000.0" linkedscene="scene_11_helperroom" linkedscene_lookat="-80.4,-1.22,155.13" />
+		<hotspot name="spot1920495118" style="skin_hotspotstyle" ath="-173.895" atv="20.333" depth="1000.0" linkedscene="scene_12_commonwc" linkedscene_lookat="-31.3,-1.07,156.93" />
 
 	</scene>
 
@@ -257,7 +257,7 @@
 			<cube url="panos/12_CommonWC.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2560" />
 		</image>
 
-		<hotspot name="spot1920495535" style="skin_hotspotstyle" ath="-47.545" atv="23.561" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="22.62,0.95,123.98" />
+		<hotspot name="spot1920495535" style="skin_hotspotstyle" ath="-47.545" atv="23.561" depth="1000.0" linkedscene="scene_10_kitchen" linkedscene_lookat="53.14,-2.93,140.0" />
 
 	</scene>
 
